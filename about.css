@@ -1,0 +1,53 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: url(/donkey.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700px;
+    font-size: 40px;
+    font-size: 3rem;
+    color:aliceblue;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.1s;
+}
+
+.btn:hover{
+  color: black;
+  transform: scale(1.5);
+  animation: ease-in;
+}
+
+.btn-secondary{
+  background-color:rgb(219, 172, 85);
+  border-color: rgb(219, 172, 85);
+  transition: all 0.1s;
+}
+
+.btn-secondary:hover{
+  background-color: linen;
+  border-color: linen;
+  transform: scale(1.5);
+  animation: ease-in;
+}
